@@ -1,10 +1,10 @@
-resource "aws_instance" "TFE-JHP-0827" {
+resource "aws_instance" "TFE-JHP-1119" {
   ami           = "ami-09246ddb00c7c4fef"
   
   instance_type = "t2.small"
-  key_name = var.ec2_key
+  key_name = var.key_name
   tags = {
-    Name = "tfe-first-test"
-    Purpose = "Change"
+    Name = "tfe-ssh-test"
+    Purpose = "Create"
   }
  }
