@@ -19,6 +19,6 @@ provider "aws" {
   secret_key = var.AWS_SECRET_ACCESS_KEY
 }
 
-# module "vpc" {
-#   source = "git@github.com:jhp0204/terraform-aws-simple.git"
-# }
+module "vpc" {
+  source = "git@github.com:jhp0204/terraform-aws-simple.git"
+}
