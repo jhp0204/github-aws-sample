@@ -20,5 +20,5 @@ provider "aws" {
 }
 
 # module "vpc" {
-#   source = "git@github.com:jhp0204/terraform-aws-vpc.git"
+#   source = "git@github.com:jhp0204/terraform-aws-simple.git"
 # }
